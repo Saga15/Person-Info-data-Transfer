@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.exceeded-limit {
+  border-color: red;
+}
+
+.negative-count {
+  color: red;
+}
+
+.warning-message {
+  color: red;
+  font-weight: bold;
+}
+.user-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  /* Add more card styling as needed */
+}
+
+.scrollable-container {
+  height: 400px;
+  overflow-y: auto;
+}
