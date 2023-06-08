@@ -12,6 +12,7 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 export default function ProfilePage() {
   const state = useLocation();
   console.log("state", state);
+  
   const defaultProps = {
     center: {
       lat: 10.99835602,
@@ -21,7 +22,7 @@ export default function ProfilePage() {
   };
 
   return (
-    <div>
+    <div className="container">
       <Card style={{ width: "18rem" }}>
         <div
           style={{

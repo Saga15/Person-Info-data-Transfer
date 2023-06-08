@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,14 +11,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
-.centre{
-  display: flex; 
+.centre {
+  display: flex;
   justify-content: center;
-   align-items: center;
+  align-items: center;
   margin-top: 100px;
-
 }
 
 .sidebar {
@@ -26,47 +25,57 @@ code {
   min-height: 100vh;
 }
 
-
-.header{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 2rem;
 }
 
-.Link{
+.Link {
   text-decoration: none !important;
-  font-family:cursive;
+  font-family: cursive;
   color: gray;
 
-font-weight: 100;}
-.Link:hover{
+  font-weight: 100;
+}
+.Link:hover {
   text-decoration: none !important;
-  font-family:cursive;
+  font-family: cursive;
   color: black;
 
-font-weight: 100;}
+  font-weight: 100;
+}
 
-.card{
+.card {
   width: 30rem;
   border-radius: 60px;
 }
 
-.img{
+.img {
   width: 55px;
   height: 55px;
   margin: auto;
 }
-.flex-column{
+.flex-column {
   width: 180px;
 }
 .tab-container {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-.card-sty{
-display: flex;
-flex-direction: row;
-position: absolute;
-margin-left: 330px;
-margin-top: -470px;
+.card-sty {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 330px;
+  margin-top: -470px;
+}
+
+.container {
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+  margin-top: 200px;
+  height: 100vh;
+
 }
